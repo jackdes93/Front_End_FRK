@@ -1,0 +1,19 @@
+<template>
+    <div>
+        <block_nav></block_nav>
+        <h2>ABOUT PAGE</h2>
+        <Block_Banner_Bottom></Block_Banner_Bottom>
+        <block_footer></block_footer>
+    </div>
+</template>
+<script>
+import block_nav from '../Units/BlockNav';
+import Block_Banner_Bottom from '../Units/Block_Banner_Bottom.vue';
+import block_footer from '../Units/Block_Footer';
+
+export default {
+    components : {
+         block_nav, block_footer, Block_Banner_Bottom
+    }    
+}
+</script>
